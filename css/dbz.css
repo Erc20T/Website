@@ -1,0 +1,184 @@
+.section {
+  width: auto;
+  height: auto;
+  background-image: url('../images/pngegg-7.png'), url('../images/bg_comics_pc.jpg');
+  background-position: 10% 100%, 0 0;
+  background-repeat: no-repeat, repeat;
+  background-size: 300px, auto;
+  border-bottom: 5px solid #000;
+  padding-top: 139px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.columns {
+  height: auto;
+}
+
+.column {
+  height: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.div-block {
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  justify-content: center;
+  margin-bottom: -26px;
+  display: flex;
+  position: relative;
+}
+
+.div-block-2 {
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.link-block {
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  background-color: #ffe114;
+  border: 5px solid #000;
+  align-items: center;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: all .225s;
+  display: flex;
+}
+
+.link-block:hover {
+  transform: scale(.95);
+}
+
+.link-block.red {
+  background-color: #cc0921;
+}
+
+.text-block {
+  color: #000;
+  font-family: Sakura town, sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 25px;
+}
+
+.text-block.red {
+  color: #fff;
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+  color: #160042;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.text-block-2 {
+  color: #000;
+  font-family: Sakura town, sans-serif;
+  font-size: 25px;
+  line-height: 25px;
+}
+
+.heading {
+  color: #ff6700;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Sakura town, sans-serif;
+  font-size: 45px;
+  line-height: 45px;
+}
+
+.div-block-3 {
+  height: 173px;
+}
+
+.image {
+  position: absolute;
+  top: 45%;
+  bottom: 0%;
+  left: auto;
+  right: 0%;
+}
+
+.section-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, .58), rgba(0, 0, 0, 0)), url('../images/nft-min.jpg');
+  background-position: 0 0, 50%;
+  background-size: auto, cover;
+  border-bottom: 5px solid #000;
+  justify-content: center;
+  align-items: center;
+  padding-top: 140px;
+  padding-bottom: 140px;
+  display: flex;
+}
+
+.section-2.other {
+  background-image: url('../images/bg_comics_pc.jpg');
+  background-position: 50%;
+  background-size: cover;
+}
+
+.section-2.other.third {
+  background-image: linear-gradient(rgba(0, 0, 0, .58), rgba(0, 0, 0, 0)), url('../images/ss_04e44a1a23446c5ab3fa2a32320ae7abde77ff6a.1920x1080-min.jpg');
+}
+
+.heading-2 {
+  color: #000;
+  font-family: Open Sans, sans-serif;
+  font-weight: 800;
+}
+
+@media screen and (max-width: 479px) {
+  .div-block {
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    flex-direction: column;
+    margin-bottom: -114px;
+  }
+
+  .link-block {
+    justify-content: center;
+  }
+
+  .text-block {
+    font-size: 20px;
+  }
+
+  .image {
+    display: none;
+  }
+
+  .section-2 {
+    padding-bottom: 60px;
+  }
+
+  .section-2.other {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .heading-2 {
+    font-size: 12px;
+    line-height: 12px;
+  }
+}
+
+
+@font-face {
+  font-family: 'Sakura town';
+  src: url('../Sakura-Town.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
